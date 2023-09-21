@@ -1,7 +1,7 @@
 [![view on npm](https://badgen.net/npm/v/command-line-args)](https://www.npmjs.org/package/command-line-args)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](#)
 
-# Note for all configuration :+1::+1:
+# configuration et deployement d'un application react :+1::+1:
 
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
 
