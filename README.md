@@ -15,37 +15,25 @@
 
 - #### Configuration de repository
 
-  -
-
   ```
     git init
   ```
 
-  ````
-
-  -
   ```git add .
-  ````
-
-  -
 
   ```
-  git commit -m "first commit
-  ```
 
-  -
+  ```
+    git commit -m "first commit
+  ```
 
   ```
   git branch -M main
   ```
 
-  -
-
   ```
   git remote add origin https://github.com/<username>/<rep Name>.git
   ```
-
-  -
 
   ```
   git push -u origin main
@@ -76,27 +64,19 @@
 
 ### Etape 6: Mettre a jour le repository
 
--
-
 ```
 git add .
 ```
 
--
-
 ```
 git commit -m "commit"
 ```
-
--
 
 ```
 git push
 ```
 
 ### Et Etape 7 : Deployer votre application
-
--
 
 ```
 npm run deploy
@@ -109,21 +89,15 @@ npm run deploy
 
 ### Etape 1 : Installer un projet react
 
--
-
 ```
 npx create-react-app nom_app --template typescript
 ```
 
 ### Etape 2 : Installer le paquet de dependance de netlify.
 
--
-
 ```
 npm install netlify-cli --save-dev
 ```
-
--
 
 ```
 npm install netlify-cli -g
