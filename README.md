@@ -1,5 +1,5 @@
 [![view on npm](https://badgen.net/npm/v/command-line-args)](https://www.npmjs.org/package/command-line-args)
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](https://github.com/feross/standard)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](#)
 
 # Note for all configuration :+1::+1:
 
