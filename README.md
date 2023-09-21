@@ -56,35 +56,35 @@
 ### Etape5 :Mettre le script de deployement sur package.json
 
 ```js
-    "scripts":{
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
-    }
+"scripts":{
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+}
 ```
 
 ### Etape 6: Mettre a jour le repository
 
-    ```
-    git add .
-    ```
+```
+git add .
+```
 
-    ```
+```
 
-    git commit -m "commit"
+git commit -m "commit"
 
-    ```
+```
 
-    ```
+```
 
-    git push
+git push
 
-    ```
+```
 
 ### Et Etape 7 : Deployer votre application
 
-    ```
-       npm run deploy
-    ```
+```
+npm run deploy
+```
 
 > [!NOTE]
 > Pour voir le url de votre site :Cliquer sur le parametre de votre repository et ensuite sur le pages
@@ -95,7 +95,6 @@
 
 ```
 npx create-react-app nom_app --template typescript
-
 ```
 
 ### Etape 2 : Installer le paquet de dependance de netlify.
