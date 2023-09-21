@@ -95,8 +95,7 @@
 
 ### Etape 1 : Installer un projet react
 
-````
-
+```
 npx create-react-app nom_app --template typescript
 
 ```
@@ -138,4 +137,3 @@ netlify deploy
 netlify deploy --prod
 
 ```
-````
