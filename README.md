@@ -24,7 +24,7 @@
   ```
 
   ```
-    git commit -m "first commit
+  git commit -m "first commit
   ```
 
   ```
@@ -49,38 +49,44 @@
 
 ### Etape 4 : Mettre le homepage sur le package.json
 
-```
-"homepage": "https://<Username>.github.io/<Repository-name>"
-```
+    ```
+    "homepage": "https://<Username>.github.io/<Repository-name>"
+    ```
 
 ### Etape5 :Mettre le script de deployement sur package.json
 
-```js
-"scripts":{
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-}
-```
+    ```js
+    "scripts":{
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+    }
+    ```
 
 ### Etape 6: Mettre a jour le repository
 
-```
-git add .
-```
+    ```
 
-```
-git commit -m "commit"
-```
+    git add .
 
-```
-git push
-```
+    ```
+
+    ```
+
+    git commit -m "commit"
+
+    ```
+
+    ```
+
+    git push
+
+    ```
 
 ### Et Etape 7 : Deployer votre application
 
-```
-npm run deploy
-```
+    ```
+       npm run deploy
+    ```
 
 > [!NOTE]
 > Pour voir le url de votre site :Cliquer sur le parametre de votre repository et ensuite sur le pages
@@ -89,34 +95,46 @@ npm run deploy
 
 ### Etape 1 : Installer un projet react
 
-```
-npx create-react-app nom_app --template typescript
-```
+    ```
+
+    npx create-react-app nom_app --template typescript
+
+    ```
 
 ### Etape 2 : Installer le paquet de dependance de netlify.
 
-```
-npm install netlify-cli --save-dev
-```
+    ```
 
-```
-npm install netlify-cli -g
-```
+    npm install netlify-cli --save-dev
+
+    ```
+
+    ```
+
+    npm install netlify-cli -g
+
+    ```
 
 ### Etape 3 : Builder votre application
 
-```
-npm run build
-```
+    ```
+
+    npm run build
+
+    ```
 
 ### Etape 4 : Deployer preprod
 
-```
-netlify deploy
-```
+    ```
+
+    netlify deploy
+
+    ```
 
 ### Etape 5 : Deployer officiellement
 
-```
-netlify deploy --prod
-```
+    ```
+
+    netlify deploy --prod
+
+    ```
