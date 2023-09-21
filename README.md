@@ -57,17 +57,15 @@
 
 ```js
     "scripts":{
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     }
 ```
 
 ### Etape 6: Mettre a jour le repository
 
     ```
-
     git add .
-
     ```
 
     ```
@@ -133,7 +131,5 @@ netlify deploy
 ### Etape 5 : Deployer officiellement
 
 ```
-
 netlify deploy --prod
-
 ```
