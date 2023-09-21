@@ -85,7 +85,7 @@ npm run deploy
 > [!NOTE]
 > Pour voir le url de votre site :Cliquer sur le parametre de votre repository et ensuite sur le pages
 
-# Deployement d'un application react sur netlify
+## Deployement d'un application react sur netlify
 
 ### Etape 1 : Installer un projet react
 
