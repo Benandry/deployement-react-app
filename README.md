@@ -55,12 +55,12 @@
 
 ### Etape5 :Mettre le script de deployement sur package.json
 
-        ```js
-        "scripts":{
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
-        }
-        ```
+```js
+    "scripts":{
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+    }
+```
 
 ### Etape 6: Mettre a jour le repository
 
