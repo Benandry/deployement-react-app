@@ -49,9 +49,9 @@
 
 ### Etape 4 : Mettre le homepage sur le package.json
 
-    ```
-    "homepage": "https://<Username>.github.io/<Repository-name>"
-    ```
+```
+"homepage": "https://<Username>.github.io/<Repository-name>"
+```
 
 ### Etape5 :Mettre le script de deployement sur package.json
 
