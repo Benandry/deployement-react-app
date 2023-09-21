@@ -69,15 +69,11 @@ git add .
 ```
 
 ```
-
 git commit -m "commit"
-
 ```
 
 ```
-
 git push
-
 ```
 
 ### Et Etape 7 : Deployer votre application
