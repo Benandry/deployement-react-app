@@ -122,14 +122,12 @@ npm run build
 
 ### Etape 4 : Deployer preprod
 
-```
-
-netlify deploy
-
-```
+    ```
+    netlify deploy
+    ```
 
 ### Etape 5 : Deployer officiellement
 
-```
-netlify deploy --prod
-```
+    ```
+    netlify deploy --prod
+    ```
