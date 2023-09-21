@@ -101,23 +101,19 @@ npx create-react-app nom_app --template typescript
 ### Etape 2 : Installer le paquet de dependance de netlify.
 
 ```
-
 npm install netlify-cli --save-dev
-
 ```
 
-```
+ou
 
+```
 npm install netlify-cli -g
-
 ```
 
 ### Etape 3 : Builder votre application
 
 ```
-
 npm run build
-
 ```
 
 ### Etape 4 : Deployer preprod
