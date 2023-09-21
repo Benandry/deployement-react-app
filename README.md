@@ -19,8 +19,8 @@
     git init
   ```
 
-  ```git add .
-
+  ```
+  git add .
   ```
 
   ```
