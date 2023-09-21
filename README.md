@@ -16,7 +16,7 @@
 - #### Configuration de repository
 
   ```
-    git init
+  git init
   ```
 
   ```
