@@ -65,27 +65,21 @@
 ### Etape 6: Mettre a jour le repository
 
     ```
-
     git add .
-
     ```
 
     ```
-
     git commit -m "commit"
-
     ```
 
     ```
-
     git push
-
     ```
 
 ### Et Etape 7 : Deployer votre application
 
     ```
-       npm run deploy
+    npm run deploy
     ```
 
 > [!NOTE]
@@ -96,45 +90,33 @@
 ### Etape 1 : Installer un projet react
 
     ```
-
     npx create-react-app nom_app --template typescript
-
     ```
 
 ### Etape 2 : Installer le paquet de dependance de netlify.
 
     ```
-
     npm install netlify-cli --save-dev
-
     ```
 
     ```
-
     npm install netlify-cli -g
-
     ```
 
 ### Etape 3 : Builder votre application
 
     ```
-
     npm run build
-
     ```
 
 ### Etape 4 : Deployer preprod
 
     ```
-
     netlify deploy
-
     ```
 
 ### Etape 5 : Deployer officiellement
 
     ```
-
     netlify deploy --prod
-
     ```
